@@ -21,9 +21,12 @@ de R) y gestionarlo desde la nube.
 Motivación
 ----------
 
-Muchas veces, cuando estamos creando alguna cosa (puede ser el TFM, nuevos
-algoritmos...) tendemos a ir creando copias cada vez que añadimos cosas
-nuevas. Por ejemplo, cuando terminé mi TFM, el directorio era algo parecido a:
+Muchas veces, cuando estamos desarrollando algún proyecto (puede ser desde la
+redacción del TFM a la implementación de nuevos algoritmos), cada vez que
+añadimos cosas nuevas tendemos a crear una copia de lo anterior.
+
+Por ejemplo, cuando terminé mi TFM, el directorio que lo contenía era algo
+parecido a:
 
 ..  code-block::
 
@@ -38,8 +41,9 @@ nuevas. Por ejemplo, cuando terminé mi TFM, el directorio era algo parecido a:
     ├── TFM-def4-revisado.pdf
     └── TFM-def4-revisado-final.pdf
 
-Lo mismo ocurre cuando trabajamos con software. Una vez, pedí unos algoritmos
-y me mandaron una carpeta que contenia los siguientes tres ficheros:
+Lo mismo ocurre cuando trabajamos con software. Una vez, pedí a otra persona
+unos algoritmos que necesitaba y me mandó una carpeta que contenia los
+siguientes tres ficheros:
 
 ..  code-block::
 
@@ -48,23 +52,26 @@ y me mandaron una carpeta que contenia los siguientes tres ficheros:
     ├── algoritmo2.R
     └── algoritmo_revisado.R
 
-Por tanto, mi primera pregunta fue: *¿Qué fichero tengo que usar?*
+Nada más verlos mi primera pregunta fue: *¿Qué fichero tengo que usar?*
 
-No suficiente con eso, una vez supe qué fichero uitlizar, abrí el fichero y
-ví que la función estaba definida de la siguiente forma:
+No suficiente con eso, una vez supe qué fichero era el bueno, lo abrí el y
+me encontré con una función definida de la siguiente forma:
 
-..  code-block:: 3
+..  code-block::
 
     algoritmo <- func(a, b, ni, nj, r, d) {
         ...
     }
 
-Así que mi siguiente pregunta fue: *¿Qué significa cada parámetro?*.
+Así que mi siguiente pregunta fue: *¿Qué significa cada parámetro de la
+función?*.
 
-Por tanto, en este módulo veremos cómo podemos evitar todo esto mediante el
-uso de paquetes de R y su gestión desde la nube. De esta forma, facilitaremos
-el uso de nuestros algoritmos a la comunidad científica y, a la vez,
-tendremos más organizado y localizado todo nuestro trabajo.
+Al final, simplemente con seguir un metodología de trabajo efectiva todos
+estos problemas de gestión de proyectos se pueden evitar. Por tanto, en este
+módulo veremos una metodología de trabajo basada en el uso de paquetes de R y
+su gestión desde la nube. De esta forma, tendremos más localizado y
+organizado todo nuestro trabajo y, a la vez,  facilitaremos a la comunidad
+científica el uso de nuestros algoritmos.
 
 Un ejemplo de lo que conseguiremos al final de este curso lo podemos
 encontrar en `esta web <https://aleixalcacer.github.io/biaa/>`_.
