@@ -102,8 +102,7 @@ Respecto a la metodología de evaluación, la nota de este módulo se calculará
 la siguiente forma:
 
 - Parte teórica (10%):
-    - Entrega 2 (5%): *Ejercicios sobre R.*
-    - Entrega 3 (5%): *Ejercicios sobre Git.*
+    - Entrega 3 (10%): *Ejercicios sobre Git.*
 
 - Parte práctica (40%):
     - Entrega 5 (10%): *Creación de un paquete de R.*
