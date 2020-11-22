@@ -1,12 +1,11 @@
 <!doctype html>
 <html class="no-js">
   <head><meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Índice" href="genindex.html" /><link rel="search" title="Búsqueda" href="search.html" /><link rel="next" title="Creando un paquete de R" href="01/index.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Índice" href="genindex.html" /><link rel="search" title="Búsqueda" href="search.html" />
 
-    <meta name="generator" content="sphinx-3.3.1, furo 2020.11.10.beta15"/>
+    <meta name="generator" content="sphinx-3.3.1, furo 2020.11.19.beta18"/>
         <title>Home - SIQ025</title>
-      <link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="_static/pygments_dark.css" />
-    <link rel="stylesheet" href="_static/styles/furo.css?state=81cde0b52e3f98dc66ea3ac2">
+      <link rel="stylesheet" href="_static/styles/furo.css?state=a5114672d2fb26a7ea8cac75">
     <link rel="stylesheet" href="_static/pygments.css">
     <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="_static/pygments_dark.css">
     
@@ -37,13 +36,15 @@
   --color-code-foreground: #d0d0d0;
   
   }
-</style>
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script><script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
-    <script src="_static/translations.js"></script>
-    <script src="_static/scripts/main.js?state=81cde0b52e3f98dc66ea3ac2"></script></head>
+</style><link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="_static/pygments_dark.css" />
+    <link rel="stylesheet" href="_static/styles/furo-extensions.css?state=a5114672d2fb26a7ea8cac75">
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script defer src="_static/jquery.js"></script>
+    <script defer src="_static/underscore.js"></script>
+    <script defer src="_static/doctools.js"></script>
+    <script defer src="_static/language_data.js"></script>
+    <script defer src="_static/translations.js"></script>
+    <script defer src="_static/scripts/main.js?state=a5114672d2fb26a7ea8cac75"></script></head>
   <body dir="">
     
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -94,7 +95,7 @@
       <a href="#"><div class="brand">SIQ025</div></a>
     </div>
     <div class="header-right">
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
     </div>
@@ -112,18 +113,9 @@
   <input class="sidebar-search" placeholder="Search" name="q">
   <input type="hidden" name="check_keywords" value="yes">
   <input type="hidden" name="area" value="default">
-</form><div class="sidebar-scroll">
-  <div class="sidebar-tree">
-    <ul>
-<li class="toctree-l1"><a class="reference internal" href="01/index.html">Creando un paquete de R</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02/index.html">Gestionando mi paquete desde la nube</a></li>
-<li class="toctree-l1"><a class="reference internal" href="03/index.html">Documentando mi paquete</a></li>
-<li class="toctree-l1"><a class="reference internal" href="04/index.html">Automatizando tareas</a></li>
-</ul>
-
-  </div>
+</form><div class="sidebar-scroll"><div class="sidebar-tree">
   
-  
+</div>
 </div>
       </div>
       
@@ -132,50 +124,130 @@
   <main class="main">
     <div class="content">
       <article role="main">
-        <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+        <label class="toc-overlay-icon toc-content-icon" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
         <div class="section" id="siq025-software-de-modelizacion-de-sistemas-industriales">
 <h1>SIQ025 - Software de modelización de sistemas industriales<a class="headerlink" href="#siq025-software-de-modelizacion-de-sistemas-industriales" title="Enlazar permanentemente con este título">¶</a></h1>
 <p>Bienvenid@s!</p>
-<p>Esta es la parte 2.2 de la asignatura <em>SIQ025 - Software de modelización
+<p>Este es el módulo 2 de la asignatura <em>SIQ025 - Software de modelización
 de sistemas industriales</em> del máster en Matemática computacional de la UJI.</p>
-<p>En esta parte de la asignatura aprenderemos, desde un punto de vista más
-práctico, cómo podemos gestionar desde la nube todo el software que vayamos
-desarrollando durante nuestra carrera profesional. También veremos cómo se
-pueden automatizar tareas que se tienen que ejecutar cada vez que se
+<p>En esta parte de la asignatura veremos cómo podemos gestionar todo el
+software que vayamos desarrollando durante nuestra carrera profesional. En
+concreto, aprenderemos a crear paquetes de software en el lenguaje de
+programación R y a gestionarlos desde la nube usando Github. También veremos
+cómo se pueden automatizar tareas que se tienen que ejecutar cada vez que se
 modifique el código (por ejemplo, la actualización de la página web del
 paquete).</p>
-<p>Lo que se pretende conseguir al final de esta parte es que seais capaces de
+<p>El objetivo final de este módulo es que, al término de este, seais capaces de
 implementar un paquete de software (en este caso del lenguaje de programación
 de R) y gestionarlo desde la nube.</p>
+<div class="section" id="motivacion">
+<h2>Motivación<a class="headerlink" href="#motivacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Muchas veces, cuando estamos creando alguna cosa (puede ser el TFM, nuevos
+algoritmos…) tendemos a ir creando copias cada vez que añadimos cosas
+nuevas. Por ejemplo, cuando terminé mi TFM, el directorio era algo parecido a:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>TFM-dir/
+├── TFM-1.pdf
+├── TFM-2.pdf
+├── TFM-22.pdf
+├── TFM-3.pdf
+├── ...
+├── TFM-def.pdf
+├── TFM-def2-con_figuras.pdf
+├── TFM-def4-revisado.pdf
+└── TFM-def4-revisado-final.pdf
+</pre></div>
+</div>
+<p>Lo mismo ocurre cuando trabajamos con software. Una vez, pedí unos algoritmos
+y me mandaron una carpeta que contenia los siguientes tres ficheros:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>ALG-dir/
+├── algoritmo.R
+├── algoritmo2.R
+└── algoritmo_revisado.R
+</pre></div>
+</div>
+<p>Por tanto, mi primera pregunta fue: <em>¿Qué fichero tengo que usar?</em></p>
+<p>No suficiente con eso, una vez supe qué fichero uitlizar, abrí el fichero y
+ví que la función estaba definida de la siguiente forma:</p>
+<div class="highlight-3 notranslate"><div class="highlight"><pre><span></span>algoritmo &lt;- func(a, b, ni, nj, r, d) {
+    ...
+}
+</pre></div>
+</div>
+<p>Así que mi siguiente pregunta fue: <em>¿Qué significa cada parámetro?</em>.</p>
+<p>Por tanto, en este módulo veremos cómo podemos evitar todo esto mediante el
+uso de paquetes de R y su gestión desde la nube. De esta forma, facilitaremos
+el uso de nuestros algoritmos a la comunidad científica y, a la vez,
+tendremos más organizado y localizado todo nuestro trabajo.</p>
+<p>Un ejemplo de lo que conseguiremos al final de este curso lo podemos
+encontrar en <a class="reference external" href="https://aleixalcacer.github.io/biaa/">esta web</a>.</p>
+</div>
+<div class="section" id="timeline">
+<h2>Timeline<a class="headerlink" href="#timeline" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Este módulo se dividirá en dos partes muy marcadas. Por un lado, en la
+primera parte, que será muy teórica, analizaremos</p>
+<ul class="simple">
+<li><p>El lenguaje de programación R y el IDE RStudio.</p></li>
+<li><p>El sistema  de control de versiones Git.</p></li>
+<li><p>El entorno web de gestión de software Github.</p></li>
+</ul>
+<p>Por otro lado, en la segunda parte, que será mucho más práctica, veremos
+cómo podemos</p>
+<ul class="simple">
+<li><p>Crear un paquete de R.</p></li>
+<li><p>Gestionar nuestro paquete desde la nube.</p></li>
+<li><p>Documentar nuestro software.</p></li>
+<li><p>Crear una página web con toda la información de nuestro paquete.</p></li>
+</ul>
+</div>
+<div class="section" id="evaluacion">
+<h2>Evaluación<a class="headerlink" href="#evaluacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Respecto a la metodología de evaluación, la nota de este módulo se calculará de
+la siguiente forma:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Parte teórica (10%):</dt><dd><ul>
+<li><p>Entrega 2 (5%): <em>Ejercicios sobre R.</em></p></li>
+<li><p>Entrega 3 (5%): <em>Ejercicios sobre Git.</em></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Parte práctica (40%):</dt><dd><ul>
+<li><p>Entrega 5 (10%): <em>Creación de un paquete de R.</em></p></li>
+<li><p>Entrega 6 (10%): <em>Sincronización del paquete con Github</em>.</p></li>
+<li><p>Entrega 7 (10%): <em>Documentación de las funciones.</em></p></li>
+<li><p>Entrega 8 (10%): <em>Creación de una página web del paquete.</em></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Trabajo final (40%)</p></li>
+<li><p>Participación en clase (10%)</p></li>
+</ul>
+</div>
+<div class="section" id="contacto">
+<h2>Contacto<a class="headerlink" href="#contacto" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Profesor: Aleix Alcacer Sales</p>
+<p>Mail: <a class="reference external" href="mailto:aalcacer%40uji.es">aalcacer<span>@</span>uji<span>.</span>es</a></p>
+<div class="section" id="tutorias">
+<h3>Tutorias<a class="headerlink" href="#tutorias" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Todas las tutorias se realizarán de manera virtual. Para establecer
+una cita, simplemente con mandar un mail a la dirección anterior será
+suficiente.</p>
 <div class="toctree-wrapper compound">
 </div>
-<p>En primer lugar, en la <a class="reference external" href="01/index.html">lección 1</a> veremos qué es un
-paquete de R, analizaremos sus principales partes y crearemos un paquete de R
-muy simple usando RStudio.</p>
-<p>A continuación, en la <a class="reference external" href="02/index.html">lección 2</a> aprenderemos a gestionar
-nuestro paquete desde la nube usando el sistema de control de versiones git y
-el entorno web de Github.</p>
-<p>Después, en la <a class="reference external" href="03.index.html">lección 3</a> documentaremos todas las
-funciones de nuestro paquete para facilitar a cualquier usuario su uso.</p>
-<p>Finalmente, en la <a class="reference external" href="04/index.html">lección 4</a> aprenderemos a automatizar
-tareas desde Github usando una CI/CD.</p>
+</div>
+</div>
 </div>
 
       </article>
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="01/index.html">
-              <div class="page-info">
-                <div class="context">
-                  <span>Next</span>
-                </div>
-                <div class="title">Creando un paquete de R</div>
-              </div>
-              <svg><use href="#svg-arrow-right"></use></svg>
-            </a>
+          
           
         </div>
 
@@ -195,8 +267,33 @@ tareas desde Github usando una CI/CD.</p>
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contenidos
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">SIQ025 - Software de modelización de sistemas industriales</a><ul>
+<li><a class="reference internal" href="#motivacion">Motivación</a></li>
+<li><a class="reference internal" href="#timeline">Timeline</a></li>
+<li><a class="reference internal" href="#evaluacion">Evaluación</a></li>
+<li><a class="reference internal" href="#contacto">Contacto</a><ul>
+<li><a class="reference internal" href="#tutorias">Tutorias</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
