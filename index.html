@@ -5,7 +5,7 @@
 
     <meta name="generator" content="sphinx-3.3.1, furo 2020.11.19.beta18"/>
         <title>Home - SIQ025</title>
-      <link rel="stylesheet" href="_static/styles/furo.css?state=96b2cbd902c8b87026706cd8">
+      <link rel="stylesheet" href="_static/styles/furo.css?state=ea0de8620492455f2e1474d4">
     <link rel="stylesheet" href="_static/pygments.css">
     <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="_static/pygments_dark.css">
     
@@ -37,14 +37,14 @@
   
   }
 </style><link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="_static/pygments_dark.css" />
-    <link rel="stylesheet" href="_static/styles/furo-extensions.css?state=96b2cbd902c8b87026706cd8">
+    <link rel="stylesheet" href="_static/styles/furo-extensions.css?state=ea0de8620492455f2e1474d4">
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script defer src="_static/jquery.js"></script>
     <script defer src="_static/underscore.js"></script>
     <script defer src="_static/doctools.js"></script>
     <script defer src="_static/language_data.js"></script>
     <script defer src="_static/translations.js"></script>
-    <script defer src="_static/scripts/main.js?state=96b2cbd902c8b87026706cd8"></script></head>
+    <script defer src="_static/scripts/main.js?state=ea0de8620492455f2e1474d4"></script></head>
   <body dir="">
     
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -144,9 +144,11 @@ implementar un paquete de software (en este caso del lenguaje de programación
 de R) y gestionarlo desde la nube.</p>
 <div class="section" id="motivacion">
 <h2>Motivación<a class="headerlink" href="#motivacion" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Muchas veces, cuando estamos creando alguna cosa (puede ser el TFM, nuevos
-algoritmos…) tendemos a ir creando copias cada vez que añadimos cosas
-nuevas. Por ejemplo, cuando terminé mi TFM, el directorio era algo parecido a:</p>
+<p>Muchas veces, cuando estamos desarrollando algún proyecto (puede ser desde la
+redacción del TFM a la implementación de nuevos algoritmos), cada vez que
+añadimos cosas nuevas tendemos a crear una copia de lo anterior.</p>
+<p>Por ejemplo, cuando terminé mi TFM, el directorio que lo contenía era algo
+parecido a:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>TFM-dir/
 ├── TFM-1.pdf
 ├── TFM-2.pdf
@@ -159,27 +161,31 @@ nuevas. Por ejemplo, cuando terminé mi TFM, el directorio era algo parecido a:<
 └── TFM-def4-revisado-final.pdf
 </pre></div>
 </div>
-<p>Lo mismo ocurre cuando trabajamos con software. Una vez, pedí unos algoritmos
-y me mandaron una carpeta que contenia los siguientes tres ficheros:</p>
+<p>Lo mismo ocurre cuando trabajamos con software. Una vez, pedí a otra persona
+unos algoritmos que necesitaba y me mandó una carpeta que contenia los
+siguientes tres ficheros:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>ALG-dir/
 ├── algoritmo.R
 ├── algoritmo2.R
 └── algoritmo_revisado.R
 </pre></div>
 </div>
-<p>Por tanto, mi primera pregunta fue: <em>¿Qué fichero tengo que usar?</em></p>
-<p>No suficiente con eso, una vez supe qué fichero uitlizar, abrí el fichero y
-ví que la función estaba definida de la siguiente forma:</p>
-<div class="highlight-3 notranslate"><div class="highlight"><pre><span></span>algoritmo &lt;- func(a, b, ni, nj, r, d) {
-    ...
-}
+<p>Nada más verlos mi primera pregunta fue: <em>¿Qué fichero tengo que usar?</em></p>
+<p>No suficiente con eso, una vez supe qué fichero era el bueno, lo abrí el y
+me encontré con una función definida de la siguiente forma:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">algoritmo</span> <span class="o">&lt;-</span> <span class="n">func</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">ni</span><span class="p">,</span> <span class="n">nj</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">d</span><span class="p">)</span> <span class="p">{</span>
+    <span class="o">...</span>
+<span class="p">}</span>
 </pre></div>
 </div>
-<p>Así que mi siguiente pregunta fue: <em>¿Qué significa cada parámetro?</em>.</p>
-<p>Por tanto, en este módulo veremos cómo podemos evitar todo esto mediante el
-uso de paquetes de R y su gestión desde la nube. De esta forma, facilitaremos
-el uso de nuestros algoritmos a la comunidad científica y, a la vez,
-tendremos más organizado y localizado todo nuestro trabajo.</p>
+<p>Así que mi siguiente pregunta fue: <em>¿Qué significa cada parámetro de la
+función?</em>.</p>
+<p>Al final, simplemente con seguir un metodología de trabajo efectiva todos
+estos problemas de gestión de proyectos se pueden evitar. Por tanto, en este
+módulo veremos una metodología de trabajo basada en el uso de paquetes de R y
+su gestión desde la nube. De esta forma, tendremos más localizado y
+organizado todo nuestro trabajo y, a la vez,  facilitaremos a la comunidad
+científica el uso de nuestros algoritmos.</p>
 <p>Un ejemplo de lo que conseguiremos al final de este curso lo podemos
 encontrar en <a class="reference external" href="https://aleixalcacer.github.io/biaa/">esta web</a>.</p>
 </div>
