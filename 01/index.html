@@ -1,13 +1,13 @@
 <!doctype html>
 <html class="no-js">
   <head><meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Índice" href="genindex.html" /><link rel="search" title="Búsqueda" href="search.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Índice" href="../genindex.html" /><link rel="search" title="Búsqueda" href="../search.html" />
 
     <meta name="generator" content="sphinx-3.3.1, furo 2020.11.19.beta18"/>
-        <title>Home - SIQ025</title>
-      <link rel="stylesheet" href="_static/styles/furo.css?state=96b2cbd902c8b87026706cd8">
-    <link rel="stylesheet" href="_static/pygments.css">
-    <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="_static/pygments_dark.css">
+        <title>Introducción - SIQ025</title>
+      <link rel="stylesheet" href="../_static/styles/furo.css?state=e5d6d57b2ca9460761255095">
+    <link rel="stylesheet" href="../_static/pygments.css">
+    <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="../_static/pygments_dark.css">
     
 
 
@@ -36,15 +36,15 @@
   --color-code-foreground: #d0d0d0;
   
   }
-</style><link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="_static/pygments_dark.css" />
-    <link rel="stylesheet" href="_static/styles/furo-extensions.css?state=96b2cbd902c8b87026706cd8">
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script defer src="_static/jquery.js"></script>
-    <script defer src="_static/underscore.js"></script>
-    <script defer src="_static/doctools.js"></script>
-    <script defer src="_static/language_data.js"></script>
-    <script defer src="_static/translations.js"></script>
-    <script defer src="_static/scripts/main.js?state=96b2cbd902c8b87026706cd8"></script></head>
+</style><link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="../_static/pygments_dark.css" />
+    <link rel="stylesheet" href="../_static/styles/furo-extensions.css?state=e5d6d57b2ca9460761255095">
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script defer src="../_static/jquery.js"></script>
+    <script defer src="../_static/underscore.js"></script>
+    <script defer src="../_static/doctools.js"></script>
+    <script defer src="../_static/language_data.js"></script>
+    <script defer src="../_static/translations.js"></script>
+    <script defer src="../_static/scripts/main.js?state=e5d6d57b2ca9460761255095"></script></head>
   <body dir="">
     
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -92,7 +92,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="#"><div class="brand">SIQ025</div></a>
+      <a href="../index.html"><div class="brand">SIQ025</div></a>
     </div>
     <div class="header-right">
       <label class="toc-overlay-icon toc-header-icon" for="__toc">
@@ -103,13 +103,13 @@
   <aside class="sidebar-drawer">
     <div class="sidebar-container">
       
-      <div class="sidebar-sticky"><a class="sidebar-brand centered" href="#">
+      <div class="sidebar-sticky"><a class="sidebar-brand centered" href="../index.html">
   <div class="sidebar-logo-container">
-    <img class="sidebar-logo" src="_static/marca-uji-color.png" alt="Logo"/>
+    <img class="sidebar-logo" src="../_static/marca-uji-color.png" alt="Logo"/>
   </div>
   
   <span class="sidebar-brand-text">SIQ025</span>
-</a><form class="sidebar-search-container" method="get" action="search.html">
+</a><form class="sidebar-search-container" method="get" action="../search.html">
   <input class="sidebar-search" placeholder="Search" name="q">
   <input type="hidden" name="check_keywords" value="yes">
   <input type="hidden" name="area" value="default">
@@ -127,62 +127,8 @@
         <label class="toc-overlay-icon toc-content-icon" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
-        <div class="section" id="siq025-software-de-modelizacion-de-sistemas-industriales">
-<h1>SIQ025 - Software de modelización de sistemas industriales<a class="headerlink" href="#siq025-software-de-modelizacion-de-sistemas-industriales" title="Enlazar permanentemente con este título">¶</a></h1>
-<p>Bienvenid@s!</p>
-<p>Este es el módulo 2 de la asignatura <em>SIQ025 - Software de modelización
-de sistemas industriales</em> del máster en Matemática computacional de la UJI.</p>
-<p>En esta parte de la asignatura veremos cómo podemos gestionar todo el
-software que vayamos desarrollando durante nuestra carrera profesional. En
-concreto, aprenderemos a crear paquetes de software en el lenguaje de
-programación R y a gestionarlos desde la nube usando Github. También veremos
-cómo se pueden automatizar tareas que se tienen que ejecutar cada vez que se
-modifique el código (por ejemplo, la actualización de la página web del
-paquete).</p>
-<p>El objetivo final de este módulo es que, al término de este, seais capaces de
-implementar un paquete de software (en este caso del lenguaje de programación
-de R) y gestionarlo desde la nube.</p>
-<div class="section" id="motivacion">
-<h2>Motivación<a class="headerlink" href="#motivacion" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Muchas veces, cuando estamos creando alguna cosa (puede ser el TFM, nuevos
-algoritmos…) tendemos a ir creando copias cada vez que añadimos cosas
-nuevas. Por ejemplo, cuando terminé mi TFM, el directorio era algo parecido a:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>TFM-dir/
-├── TFM-1.pdf
-├── TFM-2.pdf
-├── TFM-22.pdf
-├── TFM-3.pdf
-├── ...
-├── TFM-def.pdf
-├── TFM-def2-con_figuras.pdf
-├── TFM-def4-revisado.pdf
-└── TFM-def4-revisado-final.pdf
-</pre></div>
-</div>
-<p>Lo mismo ocurre cuando trabajamos con software. Una vez, pedí unos algoritmos
-y me mandaron una carpeta que contenia los siguientes tres ficheros:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>ALG-dir/
-├── algoritmo.R
-├── algoritmo2.R
-└── algoritmo_revisado.R
-</pre></div>
-</div>
-<p>Por tanto, mi primera pregunta fue: <em>¿Qué fichero tengo que usar?</em></p>
-<p>No suficiente con eso, una vez supe qué fichero uitlizar, abrí el fichero y
-ví que la función estaba definida de la siguiente forma:</p>
-<div class="highlight-3 notranslate"><div class="highlight"><pre><span></span>algoritmo &lt;- func(a, b, ni, nj, r, d) {
-    ...
-}
-</pre></div>
-</div>
-<p>Así que mi siguiente pregunta fue: <em>¿Qué significa cada parámetro?</em>.</p>
-<p>Por tanto, en este módulo veremos cómo podemos evitar todo esto mediante el
-uso de paquetes de R y su gestión desde la nube. De esta forma, facilitaremos
-el uso de nuestros algoritmos a la comunidad científica y, a la vez,
-tendremos más organizado y localizado todo nuestro trabajo.</p>
-<p>Un ejemplo de lo que conseguiremos al final de este curso lo podemos
-encontrar en <a class="reference external" href="https://aleixalcacer.github.io/biaa/">esta web</a>.</p>
-</div>
+        <div class="section" id="introduccion">
+<h1>Introducción<a class="headerlink" href="#introduccion" title="Enlazar permanentemente con este título">¶</a></h1>
 <div class="section" id="timeline">
 <h2>Timeline<a class="headerlink" href="#timeline" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Este módulo se dividirá en dos partes muy marcadas. Por un lado, en la
@@ -237,8 +183,6 @@ la siguiente forma:</p>
 <p>Todas las tutorias se realizarán de manera virtual. Para establecer
 una cita, simplemente con mandar un mail a la dirección anterior será
 suficiente.</p>
-<div class="toctree-wrapper compound">
-</div>
 </div>
 </div>
 </div>
@@ -259,7 +203,7 @@ suficiente.</p>
               <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
               <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
             |
-            <a class="muted-link" href="_sources/index.rst.txt"
+            <a class="muted-link" href="../_sources/01/index.rst.txt"
                rel="nofollow">
               Mostrar el código
             </a>
@@ -279,8 +223,7 @@ suficiente.</p>
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">SIQ025 - Software de modelización de sistemas industriales</a><ul>
-<li><a class="reference internal" href="#motivacion">Motivación</a></li>
+<li><a class="reference internal" href="#">Introducción</a><ul>
 <li><a class="reference internal" href="#timeline">Timeline</a></li>
 <li><a class="reference internal" href="#evaluacion">Evaluación</a></li>
 <li><a class="reference internal" href="#contacto">Contacto</a><ul>
