@@ -54,7 +54,7 @@ siguientes tres ficheros:
 
 Nada más verlos mi primera pregunta fue: *¿Qué fichero tengo que usar?*
 
-No suficiente con eso, una vez supe qué fichero era el bueno, lo abrí el y
+No suficiente con eso, una vez supe qué fichero era el bueno, lo abrí y
 me encontré con una función definida de la siguiente forma:
 
 ..  code-block::
@@ -101,15 +101,8 @@ Evaluación
 Respecto a la metodología de evaluación, la nota de este módulo se calculará de
 la siguiente forma:
 
-- Parte teórica (10%):
-    - Entrega 3 (10%): *Ejercicios sobre Git.*
-
-- Parte práctica (40%):
-    - Entrega 5 (10%): *Creación de un paquete de R.*
-    - Entrega 6 (10%): *Sincronización del paquete con Github*.
-    - Entrega 7 (10%): *Documentación de las funciones.*
-    - Entrega 8 (10%): *Creación de una página web del paquete.*
-
+- Parte teórica (20%):
+- Parte práctica (30%):
 - Trabajo final (40%)
 - Participación en clase (10%)
 
